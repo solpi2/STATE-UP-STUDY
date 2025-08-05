@@ -1,7 +1,11 @@
+import A from "./components/A";
+import B from "./components/B";
+
 const App = () => {
   return (
     <div className="bg-red-100 min-h-screen flex justify-center items-center">
-      App
+      <A />
+      <B />
     </div>
   );
 };
